@@ -1,0 +1,38 @@
+body {
+  background-image: url(https://images.kosher.com/uploads/Shvarzblat_Yocheved_Beef_Lettuce_Cups.webp);
+}
+
+.container {
+  padding: 40px;
+  gap: 15px;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.64);
+  z-index: -1;
+
+  .form-control {
+    display: flex;
+    width: 50%;
+  }
+  .login {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    color: white;
+    font-size: 56px;
+  }
+  h2 {
+    color: white;
+    font-size: 24px;
+  }
+}
+
+li {
+  color: white;
+}
+fa-solid {
+  color: white;
+}

@@ -24,7 +24,7 @@ services:
       MYSQL_ROOT_PASSWORD: admin
 
   app:
-    build: ./
+    build: ./php
     ports:
       - 8000:80
     volumes:
