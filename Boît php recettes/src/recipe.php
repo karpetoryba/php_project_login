@@ -64,6 +64,9 @@ $recipes = $request->fetchAll(PDO::FETCH_ASSOC);
                     <form method="POST" action="/create-carte.php">
                         <button type="submit" class="btn btn-outline-primary m-1" name="id" value="<?php echo $recipe['id']; ?>">Ajouter</button>
                     </form>
+                    <form method="POST" action="scripts/duplicate-post.php">
+                        <button type="submit" class="btn btn-outline-primary m-1" name="id" value="<?php echo $recipe['id']; ?>">Dubliquer</button>
+                    </form>
                 </li>
             <?php endforeach; ?>
         </ul>
